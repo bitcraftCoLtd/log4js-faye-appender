@@ -4,10 +4,7 @@ log4js-faye-appender is a custom appender for log4js capable of publishing log t
 
 ## Install
 
-Automated installation is not yet available through npm, but simply put the log4js-faye-appender folder in node_modules and install the dependencies by running:
-
-    cd log4js-faye-appender
-    npm install
+    npm install log4js-faye-appender
 
 ## Usage
 
