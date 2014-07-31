@@ -2,14 +2,14 @@
 
 var log4js = require('log4js');
 
-/* // You may load then append log4js-fayeAppender
-log4js.loadAppender('log4js-fayeAppender');
-log4js.addAppender(log4js.appenders['log4js-fayeAppender']('http://localhost:8000', '/testchannel'));
+/* // You may load then append log4js-faye-appender
+log4js.loadAppender('log4js-faye-appender');
+log4js.addAppender(log4js.appenders['log4js-faye-appender']('http://localhost:8000', '/testchannel'));
 */
 // Or simply pass a typical configuration
 log4js.configure({
     appenders: [
-        {type: 'log4js-fayeAppender', url: 'http://localhost:8000', channel: '/testchannel'},
+        {type: 'log4js-faye-appender', url: 'http://localhost:8000', channel: '/testchannel'},
         {type: 'console'}
     ]
 });
