@@ -1,6 +1,6 @@
 {
   "name": "log4js-faye-appender",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Custom appender for log4js based on a faye client",
   "author": "Quentin Brandon <quentin@bitcraft.co.jp> (https://www.bitcraft.co.jp/)",
   "repository": {
@@ -8,8 +8,8 @@
   },
   "main": "index.js",
   "dependencies": {
-    "faye": "1.0.x",
-    "async": "0.9.0"
+    "faye": "1.2.x",
+    "async": "2.5.x"
   },
   "licenses": [
     {
